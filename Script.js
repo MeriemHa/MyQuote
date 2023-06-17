@@ -110,6 +110,13 @@ document.addEventListener("DOMContentLoaded", function () {
     if (heartIcon.classList.contains("clicked")) {
       currentQuote.isLiked = true;
       favoriteQuotes.push(currentQuote); // Add current quote to favorites
+    } else {
+      // If the heart icon does not have the "clicked" class
+      currentQuote.isLiked = false; // Set the isLiked property of the current quote to false
+      const index = favoriteQuotes.findIndex((quote) => quote === currentQuote);
+      if (index !== -1) {
+        favoriteQuotes.splice(index, 1); // Remove the current quote from favorites
+      }
     }
   });
   // When we click generate button generateQuote function runs
