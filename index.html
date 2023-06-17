@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>MyQuote</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="BG">
+    <h1 id="Tit1">Welcome to MyQuote</h1>
+
+    <div class="container">
+      <div class="navbar">
+        <h2 onclick="showPage1()" id="Tit2">Quote Generation</h2>
+        <button onclick="showPage2()" id="Fav">Favorites</button>
+      </div>
+
+      <div id="page1" class="page active-page">
+          <!-- Quotes Generation Page -->
+        <div class="QF">
+          <div class="QuoteDiv">
+            <p id="quote"></p>
+            <p id="writer"></p>
+          </div>
+          <span class="heart-icon">&#10084;</span>
+        </div>
+        <button class="button-28">Generate ^^</button>
+      </div>
+
+       
+    <div id="page2" class="page">
+    <!-- Favourites Quotes Page -->
+    <div id="favorites-container">
+    </div>
+    </div>
+
+    <script src="Script.js"></script>
+  </body>
+</html>
