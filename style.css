@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
+/* Background style */
 #BG {
   background-image: url("Images/BG2.jpg");
   background-repeat: no-repeat;
@@ -26,6 +27,8 @@
 #Fav {
   margin-right: 30px;
 }
+
+/* style of the container of the generator */
 .container {
   display: block;
   position: absolute;
@@ -43,6 +46,7 @@
   display: flex;
 }
 
+/* The fonts and the style of the titles  */
 #Tit1,
 #Tit2 {
   font-family: "Poppins", sans-serif;
@@ -58,6 +62,8 @@
   font-size: 1.5em;
   cursor: pointer;
 }
+
+/* Generation button Style */
 
 .button-28 {
   background-color: transparent;
@@ -98,6 +104,7 @@
   transform: translateY(0);
 }
 
+/* Quote container style , Quote style , Heart icon  */
 .QuoteDiv {
   padding: auto;
   /* margin-top: 50px; */
@@ -122,10 +129,12 @@
   margin-left: 620px;
 }
 
+/* The heart turns red when it's clicked */
 .heart-icon.clicked {
   color: #99dbf5;
 }
 
+/* Favourites Button  */
 #Fav {
   color: black;
   text-decoration: none;
@@ -155,10 +164,11 @@
   width: 100%;
 }
 
+/* elements with classname page aren't displayed  */
 .page {
   display: none;
 }
-
+/* Displayed page */
 .active-page {
   display: block;
 }
@@ -167,6 +177,7 @@
   margin-bottom: 10px;
 }
 
+/* Favorites Quotes Page style */
 #favorites-container {
   margin-left: 80px;
   margin-right: 50px;
