@@ -103,7 +103,7 @@
   /* margin-top: 50px; */
   margin-bottom: 10px;
   margin-left: 50px;
-  margin-right: 50px;
+  margin-right: 120px;
 }
 
 #writer {
@@ -113,11 +113,13 @@
 
 .heart-icon {
   display: none;
+  position: fixed;
   font-size: 32px;
   color: #999;
   cursor: pointer;
   margin-right: 50px;
   margin-top: 10px;
+  margin-left: 620px;
 }
 
 .heart-icon.clicked {
